@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(247, 219, 178);
+    background-color: rgb(248, 214, 201);
     z-index: -2;
 }
 #navbar #logo img{
@@ -41,6 +41,10 @@ body{
      color: black;
      font-size: 20px;
  }
+#navele ul li a:hover{
+    background-color: rgb(226, 197, 186);
+    color: white;
+}
 
  #home{
      display: flex;
@@ -51,6 +55,7 @@ body{
     justify-content: center;
     align-items: center;
     letter-spacing: 3px;
+    text-decoration: black;
     
     
     
@@ -60,7 +65,6 @@ body{
      
      width: 600px;
      height: 500px;
-     border: 2px solid black;
      padding: 10px;
      position: absolute;
      left: 19%;
@@ -88,8 +92,7 @@ body{
         left: 0px;
         width: 100%;
         height: 750px;
-        background-image: url(img/back.jpg);
-        opacity: 0.6;
+        
         display: block;
         z-index: -1;
     }
@@ -105,7 +108,7 @@ body{
     width: 500px;
     height: 200px;
     margin: auto;
-    border: 2px solid green;
+
     text-align: center;
 }
 #d2{
@@ -133,18 +136,25 @@ body{
 #d2 div{
     height: 300px;
     width: 250px;
-    border: 2px solid red;
+    border-radius: 7px;
     margin: 15px  5px;
     padding: 8px;
 }
 #d2r{
     background-color: tomato;
+    padding: 5px;
+    margin: 5px;
+
 }
 #d2g{
     background-color: rgb(61, 133, 61);
+    padding: 5px;
+    margin: 5px;
 }
 #d2c{
     background-color: rgb(211, 86, 40);
+    padding: 5px;
+    margin: 5px;
 }
 
 #d3{
@@ -154,7 +164,6 @@ body{
 
 .d31 , .d32{
     width: 60%;
-    border: 2px solid yellow;
     height: 400px;
 }
 
@@ -163,6 +172,7 @@ body{
     justify-content: flex-end;
     margin: 10px;
     padding: 8px;
+
 }
 
 .d31 img{
@@ -171,6 +181,7 @@ body{
     margin-top: 30px;
     padding: 6px;
     border-radius: 50%;
+    border: 2px solid;
 }
 
 .d32{
@@ -178,8 +189,15 @@ body{
     padding: 8px;
     display: flex;
     flex-direction: row;
+    /* border: 2px solid black; */
+    width: 50%;
     
+    padding-right: 90px;
     
+}
+
+#d32top{
+    width: 70%;
 }
 
 
@@ -232,7 +250,7 @@ right: 0px;
 .blogs{
     height: 250px;
     width: 220px;
-    border: 3px solid black;
+    border: 1px solid black;
     display: inline-block;
     margin: 15px;
     border-radius: 5px;
@@ -243,7 +261,6 @@ right: 0px;
 
 .blogs div{
     height: 50%;
-    border: 2px solid palevioletred;
 }
 
 .blogs div img{
@@ -277,9 +294,9 @@ right: 0px;
 
 #f1 div{
     width: 25%;
-    height: 100%;
-    border: 2px solid green;
+    color: white;
+    
     margin: 7px;
-    z-index: 90;
+    padding: 10px;
 
 }
